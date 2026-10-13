@@ -1,6 +1,7 @@
 // Tests for redact()
 // DO NOT ALTER ANYTHING IN THIS FILE!
 
+
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -41,3 +42,5 @@ class RedactTest {
         assertEquals("Hello -----!", result)
     }
 }
+
+

@@ -1,6 +1,7 @@
 // COMP2850 Portfolio: Week 2
 // File redaction program
 
+
 import kotlin.io.path.Path
 import kotlin.io.path.readText
 import kotlin.io.path.writeText
@@ -25,3 +26,4 @@ fun main(args: Array<String>) {
 
     outputFile.writeText(redactedText)
 }
+
